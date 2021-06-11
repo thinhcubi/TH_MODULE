@@ -34,7 +34,7 @@ class ProductController
 
             foreach ($fields as $field) {
                 if (empty($_POST[$field])) {
-                    $errors[$field] = 'Khong duoc de trong';
+                    $errors[$field] = 'Please';
                 }
             }
             if (empty($errors)) {
@@ -59,7 +59,7 @@ class ProductController
 
             foreach ($fields as $field) {
                 if (empty($_POST[$field])) {
-                    $errors[$field] = 'Khong duoc de trong';
+                    $errors[$field] = 'Please';
                 }
             }
 
